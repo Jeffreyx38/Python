@@ -1,0 +1,92 @@
+1.1
+
+TRUE and FALSE are 0 and 1. 
+
+1.2
+
+int isSmaller(char *first, char *second) {
+
+	if (strcmp(first, second) < 1)
+
+		return 1;
+
+	else
+
+		return 0;
+
+	}
+
+1.3
+
+After reading the if statement, this makes no sense. 
+
+1.4
+
+	a) if ( (c != 'y') || (c != 'Y') )
+		return:
+
+	b) if (length > BUFSIZE){
+		length = BUFSIZE;
+	}
+
+	c) flag = (flag == 0) ? 0 : 1
+
+	d) quote = (*line == '"') ? 1 : 0
+
+	e) if (val == 1)
+		bit = 1;
+	else
+		bit = 0;
+1.5
+	Return statement wrong. It should return &p instead of *p
+
+1.6
+	2 3
+
+1.7
+	a)	if (istty(stdin))
+		else if (istty(stdout))
+		else if (istty(stderr))
+		else
+			return 0;
+
+	b) if (retval != SUCCESS){
+		return retval;
+	}
+
+	c) 
+
+	for (int k = 0; k++ < 5; x += dx){
+		scanf("%lf", &dx);
+	}
+
+1.8
+
+	The count was wrong. 
+
+	updated code: 
+
+	for (int count = 0; count < total; count++){
+		if (this.getName(count) == nametable.userName){
+			return (true);
+		}
+	}
+
+1.9
+
+As 'c' is used twice and no parentheses around the variable ‘c’
+
+1.10
+
+	#define FT_TO_METER 0.3048
+	#define METER_TO_FT 3.28084
+	#define MI_TO_FT 5280.0
+	#define MI_TO_KM 1.609344
+	#define SQMI_TO_SQKM 2.589988
+
+10.11
+
+the first commend returns an incorrect void of the function. All commends are fine because they are short and well written. The comment "//increment line counter" is not really necessary as it is already clear from the code.
+
+
+
